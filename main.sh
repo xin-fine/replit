@@ -1,6 +1,6 @@
 # rm -rf alist* data/ #Uncomment this line to update
 if [ ! -f "alist" ];then
-  curl -L https://github.com/xin-fine/replit/releases/download/ali/alist-linux-amd64.tar.gz -o alist.tar.gz
+  curl -L https://github.com/xin-fine/replit/releases/download/alii/alist-linux-amd64.tar-1.gz -o alist.tar.gz
   tar -zxvf alist.tar.gz
   rm -f alist.tar.gz
   mv alist-linux-musl-amd64 alist
